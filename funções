@@ -1,0 +1,13 @@
+c = float(input('Informe o capital:\n'))
+i = float(input('Informe o juros:\n'))
+n = int(input('Informe o prazo:\n'))
+
+def emprestimo():
+    montante = c * (1+(i/100))**n
+    return montante
+    
+print(emprestimo())
+
+
+
+
