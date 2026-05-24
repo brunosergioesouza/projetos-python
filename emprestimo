@@ -1,0 +1,20 @@
+print('Empréstimo Pessoal')
+
+def opcao_invalida(): 
+    print('Opção Inválida')
+
+try:
+
+    renda = int(input('Informe o valor da sua renda mensal: '))
+    parcela = int(input('Informe o valor da parcela desejada: '))
+
+    if parcela < 0.3 * renda:
+        print('Empréstimo Aprovado')
+    else:
+        print('Empréstimo Recusado')
+
+except:
+    opcao_invalida()
+
+
+

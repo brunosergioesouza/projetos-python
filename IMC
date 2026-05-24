@@ -1,0 +1,10 @@
+print('Cálculo do IMC!')
+
+peso = float(input('Digite seu peso em (kg).\n'))
+
+altura = float(input('Digite sua altura em (m).\n'))
+
+def imc(peso, altura):
+    return peso / (altura ** 2)
+
+print(imc(peso, altura))    

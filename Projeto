@@ -1,0 +1,17 @@
+print('Projeto')
+
+a = int(input('Informe os dias necessários para a atividade A\n'))
+
+b = int(input('Informe os dias necessários para a atividade B\n'))
+
+c = int(input('Informe os dias necessários para a atividade C\n'))
+
+
+for n in [a,b,c]:
+
+    if n < 0:
+        print('Erro')
+
+soma = a + b + c
+print(soma)
+

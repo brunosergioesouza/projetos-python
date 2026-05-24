@@ -1,0 +1,21 @@
+print('Cálculo Taxa Pedágio')
+
+def opcao_invalida():
+    print('Opção inválida\n')
+
+try:
+
+    quilometragem = int(input('Informe quantos quilômetros você vai percorrer:\n'))
+
+    if quilometragem in range(0,100):
+        print('A taxa cobrada será de R$ 100,00')
+
+    elif quilometragem in range(100,200):
+        print('A taxa cobrada será de R$ 200,00')
+
+    elif quilometragem > 200:
+        print('A taxa cobrada será de R$ 30,00')
+
+except:
+    opcao_invalida()
+

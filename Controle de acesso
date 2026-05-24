@@ -1,0 +1,8 @@
+print('Controle de Acesso')
+
+entrada = int(input('Informe a hora:\n'))
+
+if entrada >= 8 and entrada <18:
+    print('Acesso Liberado')
+else:
+    print('Acesso negado.')

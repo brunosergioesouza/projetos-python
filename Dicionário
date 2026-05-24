@@ -1,0 +1,37 @@
+#exercício 1
+ 
+nomes = [{'nome':'Bruno','Idade':'29','Cidade':'Recife'},
+         {'nome': 'Felipe','Idade':'35','Cidade':'Escada'},
+         {'nome':'Arthur','Idade':'28','Cidade':'Recife'}]
+print(nomes)
+
+#exercício 2
+
+nomes[1]['Idade'] = '36'
+print(nomes)
+
+#exercício 3
+
+nomes[1]['Profissão'] = ['Engenheiro']
+print(nomes)
+
+#exercício 4
+
+nomes.remove({'nome':'Bruno','Idade':'29','Cidade':'Recife'})
+print(nomes)
+
+#xercício 5
+
+numeros = [2,3,4]
+
+for numero in range(len(numeros)):
+    numeros[numero] = numeros[numero]*2
+print(numeros)
+
+#Exercício 6
+
+
+if 'Profissão' in nomes:
+    print("A chave existe!")
+else:
+    print("A chave não existe.")

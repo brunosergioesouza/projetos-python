@@ -1,0 +1,3 @@
+pi_arredondado = 3.14159
+#colocar :. o número e o f é quantas casas decimais você deseja
+print(f'O valor arrendodado de Pi é {pi_arredondado:.2f}')

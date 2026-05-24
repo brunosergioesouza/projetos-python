@@ -1,0 +1,16 @@
+print('Insira as coordenadas x e y para desenhar o plano cartesiano.')
+
+x = int(input('Insira o valor de X.\n'))
+y = int(input('Insira o valor de Y.\n'))
+
+if x > 0 and y > 0:
+    print('Quadrante 1')
+elif x < 0 and y > 0:
+    print('Quadrante 2')
+elif x > 0 and y > 0:
+    print('Quadrante 3')
+elif x < 0 and y < 0:
+    print('Quadrante 4')
+else:
+    print('O ponto está localizado no eixo ou origem.')
+

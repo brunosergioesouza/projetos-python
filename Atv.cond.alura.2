@@ -1,0 +1,14 @@
+print('Qual sua faixa etária?')
+
+idade = int(input('Informe sua idade e verificarmos sua faixa etária.\n'))
+
+match idade:
+
+    case _ if idade < 12:
+        print(f'Sua idade é {idade}. Logo, você é uma criança.')
+    case _ if 12 >= idade < 18:
+        print(f'Sua idade é {idade}. Logo, você é um adolescente.')
+    case _ if idade >= 18:
+        print(f'Sua idade é {idade}. Logo, você é um adulto.')
+
+

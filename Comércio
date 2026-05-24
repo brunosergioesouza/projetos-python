@@ -1,0 +1,16 @@
+print('Bruno Hortifruti\n')
+
+maca = int(input('Informe quantas maçãs você vendeu no período:\n'))
+
+banana = int(input('Informe quantas bananas você vendeu no período:\n'))
+
+if maca > banana:
+    print(f'Você vendeu mais maçãs. Foram: {maca}')
+elif banana > maca:
+    print(f'Você vendeu mais bananas. Foram: {banana}')
+
+elif maca == banana:
+    print('empate.')
+
+
+

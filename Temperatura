@@ -1,0 +1,35 @@
+import os
+
+def temp_servidor(): 
+    print('Temperatura do servidor')
+
+    temp = float(input('Digite a temperatura atual:'))
+
+    if temp > 25:
+        print('Alerta! Temperatura acima do limite permitido.')
+    else:
+        print(f'A temperatura está em {temp} graus. Ok.\n')
+
+    input("\nPressione ENTER para voltar ao menu principal...")
+
+def main():
+   while True:  # repete até o usuário escolher sair
+        os.system('cls')
+        print("=== MENU PRINCIPAL ===")
+        print("1 - Verificar temperatura")
+        print("2 - Sair")
+
+        opcao = input("Escolha: ")
+
+        if opcao == "1":
+            temp_servidor()
+        elif opcao == "2":
+            print("Encerrando...")
+            temp_servidor()
+        else:
+            print("Opção inválida!")
+            input("Pressione ENTER para continuar...")
+
+    
+if __name__ == "__main__":
+    main()

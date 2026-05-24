@@ -1,0 +1,15 @@
+print('Cálculos Despesas')
+
+aluguel = int(input('Informe o valor de seu aluguel:\n'))
+energia = int(input('Informe o valor de sua energia:\n'))
+internet = int(input('Informe o valor de sua fatura de internet:\n'))
+feira = int(input('Informe o valor gasto em alimentação/mercado:\n'))
+faculdade = int(input('Informe sua mensalidade da faculdade:\n'))
+
+def despesas(aluguel,energia,internet,feira,faculdade):
+    return aluguel + energia + internet + feira + faculdade
+
+if despesas(aluguel,energia,internet,feira,faculdade) < 3000:
+    print(f'Sua despesa esse mês foi R$ {despesas(aluguel,energia,internet,feira,faculdade)}. Logo, você está dentro do orçamento. ')
+else:    
+    print(f'Sua despesa esse mês foi R$ {despesas(aluguel,energia,internet,feira,faculdade)}. Logo, você está acima do orçamento. ')

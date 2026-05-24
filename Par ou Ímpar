@@ -1,0 +1,16 @@
+print('Par ou Ímpar?')
+
+def opcao_invalida():
+    print('Apenas números inteiros.\n')
+
+try:
+    numero = int(input('Digite um número inteiro:'))
+
+    if numero % 2 == 0:
+        print('O número é par.\n')
+
+    else:
+        print('O número é ímpar')
+
+except:
+    opcao_invalida()
