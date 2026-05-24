@@ -8,7 +8,7 @@ try:
     renda = int(input('Informe o valor da sua renda mensal: '))
     parcela = int(input('Informe o valor da parcela desejada: '))
 
-    if parcela < 0.35 * renda:
+    if parcela < 0.3 * renda:
         print('Empréstimo Aprovado')
     else:
         print('Empréstimo Recusado')
