@@ -1,0 +1,9 @@
+vendas = input('Digite o valor das vendas')
+receita = vendas.split()
+valores_vendas = (int(numeros) for numeros in receita)
+
+print(sum(valores_vendas))
+
+print(receita)
+
+

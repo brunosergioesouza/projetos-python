@@ -1,0 +1,12 @@
+n = int(input("Informe seu ano de nascimento:\n"))
+a = int(input("Informe o ano atual:\n"))
+
+def tempo():
+    idade = a - n
+    return idade
+    
+print(f'A idade é: {tempo()} anos')
+
+
+
+

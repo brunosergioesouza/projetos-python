@@ -1,0 +1,6 @@
+def contar_caracteres(texto):
+    return len(texto)
+
+texto = input('Digite uma palavra qualquer:\n')
+
+print(f'A palavra digitada contém {contar_caracteres(texto)} caracteres.')
